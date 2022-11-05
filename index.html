@@ -7,16 +7,49 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>LOGIN  FORM</h1>
+    <h1>LOGIN FORM</h1>
     <form type="summit" method="post" action="Second.html">
-        <label>Enter your name </label>
+        <label><b>Enter your name</b> </label>
         <input type="text" name="name" class="name" id="fname" placeholder="name is required" required></input><br/><br/>
-        <label>Enter your phone number </label>
+        <label><b>Enter your phone number</b> </label>
         <input type="number" name="phone" class="phone" id="fphone" placeholder="phone number is required" required></input><br/><br/>
-        <label>Enter your email id  </label>
+        <label><b>Enter your DOB</b></label>
+       <input type="date" id="date" name="date"></input><br/><br/>
+
+        <label><b>Enter your email id </b> </label>
         <input type="email" name="email" class="email" id="femail" value="ansariaavez1234@gmail.com" readonly></input><br/><br/>
+        <label><b>Enter ypur Address</b></label>
+        <textarea id="add" name="add" rows="1" cols="20" placeholder="ADDRESS IS REQUIRED" required></textarea>
+        <br/><br/>
+        <label><b>Select your course</b></label>
+        <select class="drop">
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstake">Fullstake Developer</option>
+        </select>
+<br/><br/>
+        <label><b>Enter your subject</b></label>
+        <input type="checkbox" name="subject" id="subject" value="java"></input>
+        <label><b>HTML</b></label>
+        <input type="checkbox" name="subject" id="subject" value="java"></input>
+        <label><b>CSS</b></label> 
+        <input type="checkbox" name="subject" id="subject" value="java"></input>
+        <label><b>JAVASCRIPT</b></label>
+         <input type="checkbox" name="subject" id="subject" value="java"></input>
+        <label>C#</b></label>
+        <be/><br/><br/>
+        <label><b>Select your gender</b></label>
+        <input type="radio" name="gender" id="gender" value="male">
+        <label><b>Male</b></label>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label><b>Female</b></label>
+        <input type="radio" name="gender" id="gender" value="other">
+        <label><b>Other</b></label>
+        <br/><br/>
+        <label>Select your files</label>
+        <input type="file" id="sflie" name="sfile" multiple></input>
 
-
+        <br/><br>
         <input type="submit"></input>
     </form>
     
